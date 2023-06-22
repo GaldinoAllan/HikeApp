@@ -1,18 +1,31 @@
 import SwiftUI
 
 struct CardView: View {
+    // MARK: - Properties
+    @State private var imageNumber: Int = 1
+    @State private var randomNumber: Int = 1
+    
+    // MARK: - Methods
+    
+    func randomImage() {
+        repeat {
+            randomNumber = Int.random(in: 1...5)
+        } while randomNumber == imageNumber
+                    
+        imageNumber = randomNumber
+    }
+    
     var body: some View {
         // MARK: - Card
         ZStack {
             CustomBackgroundView()
-                .frame(width: 320, height: 570)
             VStack {
                 // MARK: - Header
                 VStack(alignment: .leading) {
                     HStack {
                         Text("Hiking")
                             .fontWeight(.black)
-                            .font(.system(size: 52))
+                            .font(.system(size: 50))
                             .foregroundStyle(
                                 .linearGradient(
                                     .init(colors: [.grayLight, .grayMedium]),
@@ -32,7 +45,7 @@ struct CardView: View {
                         .italic()
                         .foregroundColor(.grayMedium)
                 } // Header
-                .padding(.horizontal, 72)
+                .padding(.horizontal, 36)
                 // MARK: - Main Content
                 ZStack {
                     Circle()
@@ -44,13 +57,32 @@ struct CardView: View {
                             )
                         )
                         .frame(width: 256, height: 256)
-                    Image("image-1")
+                    Image("image-\(imageNumber)")
                         .resizable()
                         .scaledToFit()
+                        .animation(.default, value: imageNumber)
                 }
                 // MARK: - Footer
+                Button {
+                    randomImage()
+                } label: {
+                    Text("Explore More")
+                        .font(.title2)
+                        .fontWeight(.heavy)
+                        .foregroundStyle(
+                            LinearGradient(colors: [.greenLight, .greenMedium],
+                                           startPoint: .top,
+                                           endPoint: .bottom)
+                        )
+                        .shadow(color: .black.opacity(0.25),
+                                radius: 0.25,
+                                x: 1,
+                                y: 2)
+                }
+                .buttonStyle(GradientButton())
             }
         }
+        .frame(width: 320, height: 570)
     }
 }
 
