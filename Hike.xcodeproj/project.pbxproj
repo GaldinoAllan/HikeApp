@@ -319,8 +319,10 @@
 		9D03C2382A43B19400CC51CF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "\"AppIcon-Backpack\" \"AppIcon-Camera\" \"AppIcon-Mushroom\" \"AppIcon-Map\" \"AppIcon-MagnifyingGlass\" \"AppIcon-Campfire\"";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Hike/Hike.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -357,8 +359,10 @@
 		9D03C2392A43B19400CC51CF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "\"AppIcon-Backpack\" \"AppIcon-Camera\" \"AppIcon-Mushroom\" \"AppIcon-Map\" \"AppIcon-MagnifyingGlass\" \"AppIcon-Campfire\"";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = Hike/Hike.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
