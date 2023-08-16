@@ -17,6 +17,7 @@
 		9D03C2432A43C42900CC51CF /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D03C2422A43C42900CC51CF /* CustomButtonView.swift */; };
 		9D03C2452A43C8A100CC51CF /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D03C2442A43C8A100CC51CF /* GradientButtonStyle.swift */; };
 		9D03CE502A8D78C70079F3DC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D03CE4F2A8D78C70079F3DC /* SettingsView.swift */; };
+		9D03CE522A8D7F850079F3DC /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D03CE512A8D7F850079F3DC /* ListRowView.swift */; };
 		9D945DE42A4A5EB200176AD9 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D945DE32A4A5EB200176AD9 /* CustomCircleView.swift */; };
 		9D945DE62A4A5FC700176AD9 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D945DE52A4A5FC700176AD9 /* MotionAnimationView.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		9D03C2422A43C42900CC51CF /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		9D03C2442A43C8A100CC51CF /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		9D03CE4F2A8D78C70079F3DC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9D03CE512A8D7F850079F3DC /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		9D945DE32A4A5EB200176AD9 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
 		9D945DE52A4A5FC700176AD9 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +97,7 @@
 				9D03C2422A43C42900CC51CF /* CustomButtonView.swift */,
 				9D945DE32A4A5EB200176AD9 /* CustomCircleView.swift */,
 				9D945DE52A4A5FC700176AD9 /* MotionAnimationView.swift */,
+				9D03CE512A8D7F850079F3DC /* ListRowView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				9D03CE502A8D78C70079F3DC /* SettingsView.swift in Sources */,
 				9D03C2432A43C42900CC51CF /* CustomButtonView.swift in Sources */,
 				9D03C2452A43C8A100CC51CF /* GradientButtonStyle.swift in Sources */,
+				9D03CE522A8D7F850079F3DC /* ListRowView.swift in Sources */,
 				9D945DE62A4A5FC700176AD9 /* MotionAnimationView.swift in Sources */,
 				9D03C22C2A43B19200CC51CF /* HikeApp.swift in Sources */,
 				9D03C23E2A43BFA300CC51CF /* CustomBackgroundView.swift in Sources */,
